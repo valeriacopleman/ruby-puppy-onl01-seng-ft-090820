@@ -8,17 +8,17 @@ class Dog
   
   def initialize(name)
     @name = name
-    save 
-  end 
+    save
+    end 
   
   def self.all
     @@all
   end
  
  def save
-   @@all << self
+   @@all << self 
  end
- 
+   
  def self.clear_all
    @@all = []
  end
